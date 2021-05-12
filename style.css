@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liked {
+    background-color: #CD5C5C !important;
+}
+
+input {
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 100px;
+    height: 60px;
+    background-color: #ADD8E6;
+    border-radius: 10px;
+    border: 1px solid #ADD8E6;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.like-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.like-btns img {
+    margin-left: 10px;
+}
